@@ -2,6 +2,8 @@ package com.blogbear.BlogBearBackend.Model;
 
 import jakarta.persistence.*;
 
+import java.util.List;
+
 @Entity
 public class Post {
     @Id
@@ -13,6 +15,8 @@ public class Post {
     private String description;
     @Column(nullable = false)
     private String content;
+    @OneToMany(mappedBy = "post", cascade = CascadeType.ALL, orphanRemoval = true)
+    private List<Comment> comments;
 
     public Long getId() {
         return id;

@@ -1,0 +1,16 @@
+
+
+java:S1488"_Immediately return this expression instead of assigning it to the temporary variable "postDto".(•·Çäùÿÿÿÿ8ƒñ¹â»1
+y
+java:S1488#"\Immediately return this expression instead of assigning it to the temporary variable "post".(Ï®Â8ñÒ»â»1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(½ââß8…ñ¹â»1
+_
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8Ÿñ¹â»1
+_
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8Ÿñ¹â»1
+Z
+java:S1854a"8Remove this useless assignment to local variable "post".(™õÓ¤úÿÿÿÿ8ÄöÄâ»1
+K
+java:S1481a")Remove this unused "post" local variable.(™õÓ¤úÿÿÿÿ8«ñ¹â»1
+Z
+java:S1128"8Remove this unused import 'java.util.stream.Collectors'.(Óóº´úÿÿÿÿ8«ñ¹â»1

@@ -1,0 +1,14 @@
+
+^
+java:S1192E"HDefine a constant instead of duplicating this literal "Comment" 3 times.( ÷Êâ
+
+java:S1192H"dDefine a constant instead of duplicating this literal "NOT FOUND THAT COMMENT IN THIS POST" 3 times.(øÄÁúÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(½ââß
+_
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8¹ì¾ğ¸1
+_
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8æŠŠâ»1
+m
+java:S6204<"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(™×¼øÿÿÿÿ
+\
+java:S1612<"AReplace this lambda with method reference 'this::mapEntityToDTO'.(™×¼øÿÿÿÿ

@@ -1,10 +1,23 @@
 package com.blogbear.BlogBearBackend.Dto;
 
+import com.blogbear.BlogBearBackend.Model.Comment;
+
+import java.util.List;
+
 public class PostDto {
     private Long id;
     private String title;
     private String description;
     private String content;
+    private List<Comment> comments;
+
+    public List<Comment> getComments() {
+        return comments;
+    }
+
+    public void setComments(List<Comment> comments) {
+        this.comments = comments;
+    }
 
     public Long getId() {
         return id;

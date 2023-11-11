@@ -2,6 +2,7 @@ package com.blogbear.BlogBearBackend.Controller;
 
 import com.blogbear.BlogBearBackend.Dto.CommentDto;
 import com.blogbear.BlogBearBackend.Service.CommentService;
+import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -18,7 +19,7 @@ public class CommentController {
     @PostMapping("post/{postId}/comment")
     public ResponseEntity<CommentDto> createComment(
             @PathVariable(value="postId") long postId,
-            @RequestBody CommentDto commentDto) {
+            @Valid @RequestBody CommentDto commentDto) {
         return new ResponseEntity<>(commentService.createComment(postId, commentDto), HttpStatus.CREATED);
     }
 
@@ -39,7 +40,7 @@ public class CommentController {
     public ResponseEntity<CommentDto> updateCommentByPostIdByCommentId(
             @PathVariable(value = "postId") long postId,
             @PathVariable(value = "commentId") long commentId,
-            @RequestBody CommentDto updateCommentDto
+            @Valid @RequestBody CommentDto updateCommentDto
             ) {
         CommentDto updatedCommentDto = commentService.updateCommentById(postId, commentId, updateCommentDto);
         return new ResponseEntity<>(updatedCommentDto, HttpStatus.OK);

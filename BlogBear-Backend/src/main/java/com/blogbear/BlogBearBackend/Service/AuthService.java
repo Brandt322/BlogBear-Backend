@@ -7,6 +7,9 @@ import com.blogbear.BlogBearBackend.Model.User.Role;
 import com.blogbear.BlogBearBackend.Model.User.User;
 import com.blogbear.BlogBearBackend.Repository.UserRepository;
 import lombok.RequiredArgsConstructor;
+import org.springframework.security.authentication.AuthenticationManager;
+import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
+import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
@@ -19,9 +22,20 @@ public class AuthService {
     private final UserRepository userRepository;
 
     private final PasswordEncoder passwordEncoder;
+
+    private final AuthenticationManager authenticationManager;
     public AuthResponse login(LoginRequest loginRequest) {
-        return null;
+        authenticationManager.authenticate(new UsernamePasswordAuthenticationToken(loginRequest.getUsername(), loginRequest.getPassword()));
+
+        UserDetails userDetails = userRepository.findByUsername(loginRequest.getUsername()).orElseThrow();
+
+        String token = jwtService.getToken(userDetails);
+
+        return AuthResponse.builder()
+                .token(token)
+                .build();
     }
+
 
     public AuthResponse register(RegisterRequest registerRequest) {
         User user = User.builder()

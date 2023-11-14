@@ -49,16 +49,12 @@ qBlogBear-Backend/src/main/java/com/blogbear/BlogBearBackend/Controller/Authenti
 tBlogBear-Backend/src/main/java/com/blogbear/BlogBearBackend/Controller/AuthenticationController/RegisterRequest.java,7\f\7fcf3551f9e35edffa81b2c588c5132a0713fecb
 ¡
 qBlogBear-Backend/src/main/java/com/blogbear/BlogBearBackend/Controller/AuthenticationController/AuthResponse.java,5\7\5702d83c8aae1b7a7a747e5a515a8d5f94021c16
- 
-pBlogBear-Backend/src/main/java/com/blogbear/BlogBearBackend/Controller/AuthenticationController/AuthService.java,c\0\c08449cc9dd4974d72642dca9710f6a7ddf5bf04
 €
 PBlogBear-Backend/src/main/java/com/blogbear/BlogBearBackend/Model/User/Role.java,c\d\cde577ebaf46c608b76fe22f457d412c16269309
 €
 PBlogBear-Backend/src/main/java/com/blogbear/BlogBearBackend/Model/User/User.java,5\7\571389b23640d6105ee3e69c1cadbbfb70e710de
 Š
 ZBlogBear-Backend/src/main/java/com/blogbear/BlogBearBackend/Repository/UserRepository.java,f\1\f12f48b9c5a9c0767e48e1cda72b4d5c69467f55
-Ÿ
-oBlogBear-Backend/src/main/java/com/blogbear/BlogBearBackend/Controller/AuthenticationController/JwtService.java,3\3\331773ed9b2df7d980f62f472b266e4506c0cf4a
 ƒ
 SBlogBear-Backend/src/main/java/com/blogbear/BlogBearBackend/Service/JwtService.java,9\7\97516a72635ef13db94c2d74a85d9cca14e56121
 „

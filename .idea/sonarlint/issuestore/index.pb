@@ -1,10 +1,6 @@
 
-à
-XBlogBear-Backend/src/main/java/com/blogbear/BlogBearBackend/Service/PostServiceImpl.java,c\d\cd52cad90adaf6c1f95b0edc15cb863c8de33b58
 á
 WBlogBear-Backend/src/main/java/com/blogbear/BlogBearBackend/Service/CommentService.java,b\7\b71b2cd7b52e83ef256acd1727aa36024de84699
-ã
-[BlogBear-Backend/src/main/java/com/blogbear/BlogBearBackend/Service/CommentServiceImpl.java,8\6\86b859ab487ff8414988f9c2ea913be5a285455d
 ç
 ]BlogBear-Backend/src/main/java/com/blogbear/BlogBearBackend/Controller/CommentController.java,7\6\76ea9a3ecc7e54f1ec6975885a59bf1c5151c163
 H
@@ -37,9 +33,23 @@ QBlogBear-Backend/src/main/java/com/blogbear/BlogBearBackend/Utility/Constant.ja
 LBlogBear-Backend/src/main/java/com/blogbear/BlogBearBackend/Dto/PostDto.java,6\2\6297c953a89dc5aec4f6b15c1ca6b9d1fdd2c658
 ã
 [BlogBear-Backend/src/main/java/com/blogbear/BlogBearBackend/Exception/BlogAppException.java,b\3\b39fe25ec13930832ceee5bab8f2bffabc59c852
-ë
-aBlogBear-Backend/src/main/java/com/blogbear/BlogBearBackend/Exception/GlobalExceptionHandler.java,a\d\ad14a37ad860afa7eabfbdd34e4e881fad5f3b6b
 Ö
 UBlogBear-Backend/src/main/java/com/blogbear/BlogBearBackend/Utility/DetailErrors.java,e\6\e61869d3512cfaf0460d8a05dcdc2134bd3e4120
 ã
 [BlogBear-Backend/src/main/java/com/blogbear/BlogBearBackend/Exception/ExceptionHandler.java,0\4\04ef9b4ae50c60568bd484269d11be8191753367
+à
+XBlogBear-Backend/src/main/java/com/blogbear/BlogBearBackend/Security/SecurityConfig.java,8\1\81f060b7c3c65c7e82c3b4e59e54fd74e70f63d1
+è
+_BlogBear-Backend/src/main/java/com/blogbear/BlogBearBackend/Security/SecurityConfiguration.java,b\b\bbee22082def2f6ee7d9fdcaf2911029e25afe81
+ï
+eBlogBear-Backend/src/main/java/com/blogbear/BlogBearBackend/Security/Jwt/JwtAuthenticationFilter.java,2\5\25b9dc775f38f6c9bb83bea929a1ad1132e1c324
+ä
+ZBlogBear-Backend/src/main/java/com/blogbear/BlogBearBackend/Controller/AuthController.java,4\3\436aa3867afdcd146b7220cc3be69097bb1ec5f0
+£
+sBlogBear-Backend/src/main/java/com/blogbear/BlogBearBackend/Controller/AuthenticationController/AuthController.java,c\1\c150a5e7594f7f146f65417cb325dc4afddab175
+°
+qBlogBear-Backend/src/main/java/com/blogbear/BlogBearBackend/Controller/AuthenticationController/LoginRequest.java,c\a\ca56b866856612da4064809291c9779b0a8f5624
+§
+tBlogBear-Backend/src/main/java/com/blogbear/BlogBearBackend/Controller/AuthenticationController/RegisterRequest.java,7\f\7fcf3551f9e35edffa81b2c588c5132a0713fecb
+°
+qBlogBear-Backend/src/main/java/com/blogbear/BlogBearBackend/Controller/AuthenticationController/AuthResponse.java,5\7\5702d83c8aae1b7a7a747e5a515a8d5f94021c16
